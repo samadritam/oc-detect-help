@@ -6,7 +6,7 @@ import io
 API_URL = "https://oc-detect-1-2.onrender.com/predict/"
 
 st.title("🦷 Oral Cancer Detection 🦷")
-st.write("Upload an oral cavity image, and the backend model will predict if it is **Normal**, **Cancer**, or **Doubtful**.")
+st.write("Upload an image of oral cavity, and the backend model will predict if it is **Normal** or **Cancer**.")
 
 uploaded_file = st.file_uploader("📂 Upload Image", type=["jpg", "jpeg", "png"])
 
